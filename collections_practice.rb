@@ -36,6 +36,8 @@ def count_elements(hash)
   end 
 end 
 
+count_elements([{:name => "blake"}, {:name => "blake"}, {:name => "ashley"}])
+
 def merge_data(keys, data)
 end 
 
