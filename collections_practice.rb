@@ -2,8 +2,8 @@
 def begins_with_r(array)
   compare_arr = []
   array.each do |word|
-    if ((word.chars)[0] != 'r' || (word.chars)[0] != 'R')
-      return false
+    if ((word.chars)[0] == 'r' || (word.chars)[0] == 'R')
+      compare_arr << word
     end 
   end 
   true
