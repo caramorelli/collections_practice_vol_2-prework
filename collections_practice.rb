@@ -18,6 +18,7 @@ end
 
 def first_wa(array)
   array.each do |word|
+    if word.is_a?(String)
     return word if (word.chars)[0..1] == 'wa'
   end 
 end 
