@@ -32,7 +32,8 @@ end
 def count_elements(hash)
   count_hash = {}
   hash.each do |ele|
-    puts ele
+    puts ele 
+  end 
 end 
 
 def merge_data(keys, data)
