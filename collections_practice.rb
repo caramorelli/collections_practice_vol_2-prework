@@ -1,6 +1,7 @@
 
 def contain_a(array)
-  array.each do |word|
+  array.keep_if do |word|
+    word.split('')
   end 
 end 
 
