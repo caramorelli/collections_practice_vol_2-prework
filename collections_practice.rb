@@ -26,6 +26,7 @@ def remove_non_strings(array)
   array.keep_if do |ele|
     ele.is_a?(String)
   end 
+  array
 end 
 
 def count_elements(hash)
