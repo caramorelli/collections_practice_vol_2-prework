@@ -1,4 +1,6 @@
 
+def begins_with_r(array)
+
 def contain_a(array)
   array.keep_if do |word|
     word.split('').include?('a')
