@@ -1,4 +1,6 @@
 
+def remove_non_strings(arr)
+
 def count_elements(hash)
 end 
 
