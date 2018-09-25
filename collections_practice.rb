@@ -30,6 +30,7 @@ def remove_non_strings(array)
 end 
 
 def count_elements(hash)
+  count_hash = {}
 end 
 
 def merge_data(keys, data)
