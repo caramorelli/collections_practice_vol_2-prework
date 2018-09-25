@@ -1,5 +1,6 @@
 
-
+def contain_a(array)
+end 
 
 def first_wa(array)
 end 
