@@ -1,5 +1,9 @@
 
 def begins_with_r(array)
+  array.keep_if do |word|
+    word.split('').first == 'r'
+  end 
+end 
 
 def contain_a(array)
   array.keep_if do |word|
