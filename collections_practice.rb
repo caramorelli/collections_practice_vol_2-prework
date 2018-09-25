@@ -1,7 +1,7 @@
 
 def contain_a(array)
   array.keep_if do |word|
-    word.split('')
+    word.split('').include?('a')
   end 
 end 
 
