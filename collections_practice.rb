@@ -32,7 +32,7 @@ end
 def count_elements(hash)
   count_hash = {}
   hash.each do |ele|
-     puts ele.keys
+     puts ele.values
   end 
 end 
 
