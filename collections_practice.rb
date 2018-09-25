@@ -25,6 +25,7 @@ def first_wa(array)
 end 
 
 arr = ["candy", :pepper, "wall", :ball, "wacky"]
+first_wa(arr)
 
 
 def remove_non_strings(array)
