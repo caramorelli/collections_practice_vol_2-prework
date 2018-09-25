@@ -1,6 +1,6 @@
 
 def begins_with_r(array)
-  array.keep_if do |word|
+  array.each do |word|
     if ((word.split('')).first != 'r' || word.split('').first != 'R')
       return false
     end 
