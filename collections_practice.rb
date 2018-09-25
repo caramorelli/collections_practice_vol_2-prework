@@ -33,6 +33,7 @@ def count_elements(hash)
   count_hash = {}
   hash.each do |ele|
      count_hash[ele.values] += 1 if (count_hash.keys).include?(ele.values)
+     count_hash[ele.values] = 1
   end 
 end 
 
