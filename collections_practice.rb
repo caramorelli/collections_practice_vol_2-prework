@@ -18,7 +18,7 @@ end
 
 def first_wa(array)
   array.find do |word|
-    (word.chars)[0..1] == 'wa'
+    return word if (word.chars)[0..1] == 'wa'
   end 
 end 
 
