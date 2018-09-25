@@ -3,6 +3,7 @@ def contain_a(array)
   array.keep_if do |word|
     word.split('').include?('a')
   end 
+  array
 end 
 
 def first_wa(array)
