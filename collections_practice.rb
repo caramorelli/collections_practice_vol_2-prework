@@ -1,5 +1,7 @@
 
 def contain_a(array)
+  array.each do |word|
+  end 
 end 
 
 def first_wa(array)
