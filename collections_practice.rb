@@ -24,7 +24,7 @@ end
 
 def remove_non_strings(array)
   array.keep_if do |ele|
-    
+    ele.is_a?(String)
   end 
 end 
 
