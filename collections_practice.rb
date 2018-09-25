@@ -18,12 +18,11 @@ end
 
 def first_wa(array)
   array.each do |word|
-    puts word if word.is_a?(String) && (word.chars[0..1]).join == ''
+    return word if word.is_a?(String) && (word.chars[0..1]).join == 'wa'
   end 
 end 
 
-arr = ["candy", :pepper, "wall", :ball, "wacky"]
-first_wa(arr)
+
 
 
 def remove_non_strings(array)
