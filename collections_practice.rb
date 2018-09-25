@@ -2,7 +2,7 @@
 def begins_with_r(array)
   compare_arr = []
   array.each do |word|
-    if ((word.chars)[] != 'r' || word.split('').first != 'R')
+    if ((word.chars)[0] != 'r' || (word.chars)[0] != 'R')
       return false
     end 
   end 
