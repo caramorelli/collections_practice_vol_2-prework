@@ -3,7 +3,7 @@ def begins_with_r(array)
   array.keep_if do |word|
     return false if (word.split('').first != 'r' || word.split('').first != 'R')
   end 
-  array
+  true
 end 
 
 def contain_a(array)
