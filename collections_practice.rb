@@ -1,7 +1,7 @@
 
 
 
-
+def first_wa(arr)
 
 
 def remove_non_strings(array)
