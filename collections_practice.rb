@@ -17,7 +17,7 @@ def contain_a(array)
 end 
 
 def first_wa(array)
-  array.find do |word|
+  array.each do |word|
     return word if (word.chars)[0..1] == 'wa'
   end 
 end 
