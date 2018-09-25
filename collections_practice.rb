@@ -32,7 +32,7 @@ end
 def count_elements(hash)
   count_hash = {}
   hash.each do |ele|
-     count_hash[ele.values] += 1
+     count_hash[ele.values] += 1 unless count_hash.keys.include?()
   end 
 end 
 
