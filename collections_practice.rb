@@ -18,7 +18,7 @@ end
 
 def first_wa(array)
   array.each do |word|
-    puts word.chars
+    puts word.chars[0..1]
   end 
 end 
 
