@@ -6,7 +6,7 @@ def begins_with_r(array)
       compare_arr << word
     end 
   end 
-  true
+  compare_arr.length == array.length
 end 
 
 def contain_a(array)
